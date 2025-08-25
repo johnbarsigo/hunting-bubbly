@@ -1,0 +1,43 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>My Portfolio</title>
+    </head>
+    <body>
+
+        <p><span data-typewriter="Hello! Welcome to My Page."></span></p> <br>
+
+        <p><span data-typewriter="About Me:"></span></p> <br>
+
+        <ul>
+
+            <li><span data-typewriter="Name: Barsigo John Kiplagat" ></span> </li>
+            <li> <span data-typewriter="Tel: +254 717 829305" ></span> </li>
+            <li> <span data-typewriter="Email:" ></span> <a href="mailto:johnbarsigo@gmail.com"><span data-typewriter="johnbarsigo@gmail.com"></span></a></li>
+
+        </ul>
+
+        <br>
+        <br>
+
+        <p> <span data-typewriter="Select:"></span></p> <br>
+
+        <ol>
+
+            <li><a href="{{ url_for('profile') }}"> <span data-typewriter="> Profile" ></span></a></li>
+            <li><a href="{{ url_for('skills') }}"> <span data-typewriter="> Core Skills" ></span></a></li>
+            <li><a href="{{ url_for('education') }}"> <span data-typewriter="> Education" ></span></a></li>
+            <li><a href="{{ url_for('experience') }}"> <span data-typewriter="> Experience" ></span></a></li>
+
+        </ol>
+
+        <p></p>
+
+        <script src="{{ url_for('static', filename='terminal.js') }}"></script>
+        
+    </body>
+    </html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>My Profile</title>
+</head>
+<body>
+
+    <div id="profile_header">
+
+        <div id="profile_picture"></div>
+
+        <div id="profile_text">
+
+            <p> <span data-typewriter="A passionate and innovative young professional open to opportunities to learn and working towards cementing an influencial position in the growing IT industry." ></span></p>
+
+        </div>
+    </div>
+
+    <br>
+
+    <p><span data-typewriter="Additional Information"></span></p> <br>
+    <ul>
+        <li> <span data-typewriter="Languages:" ></span> <br>
+            <ol>
+                <li> <span data-typewriter="> English"></span> </li>
+                <li><span data-typewriter="> Swahili (Native)"></span></li>
+            </ol>
+        </li>
+
+        <br>
+        <br>
+
+        <li> <span data-typewriter="Hobbies:" ></span> <br>
+            <ol>
+                <li><span data-typewriter="> Music (Guitar)"></span></li>
+                <li><span data-typewriter="> Amateur Photography"></span></li>
+                <li><span data-typewriter="> Hiking"></span></li>
+            </ol>
+        </li>
+    </ul>
+    
+    <script src="{{ url_for('static', filename='terminal.js') }}"></script>
+
+</body>
+</html>
