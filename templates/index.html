@@ -27,7 +27,9 @@
         <br>
 
         <p><span data-typewriter="PROFESSIONAL SUMMARY"></span></p> <br>
-        <p><span data-typewriter="I am a full-stack Software Engineer. I specialize in Flask and React frameworks to build applications. I have experience in building REST APIs, authentication systems and I build database-driven applications as well. I have a strong understanding of structuring back-end applications well and integrating with the front-end using modern techniques." ></span></p>
+        <p><span data-typewriter="I am a full-stack Software Engineer. I specialize in Flask and React frameworks to build applications.
+        I have experience in building REST APIs, authentication systems and I build database-driven applications as well.
+        I have a strong understanding of structuring back-end applications well and integrating it with the front-end using modern techniques." ></span></p>
 
         <br>
 
@@ -35,11 +37,13 @@
 
         <ol>
 
-            <li><a href="{{ url_for('profile') }}"> <span data-typewriter="> Profile" ></span></a></li>
-            <li><a href="{{ url_for('skills') }}"> <span data-typewriter="> Core Skills" ></span></a></li>
-            <li><a href="{{ url_for('education') }}"> <span data-typewriter="> Education" ></span></a></li>
-            <li><a href="{{ url_for('experience') }}"> <span data-typewriter="> Experience" ></span></a></li>
+            <li><a href="{{ url_for('profile') }}"> <span data-typewriter="> VIEW PROJECTS" ></span></a></li>
+            <li><a href="{{ url_for('skills') }}"> <span data-typewriter="> ABOUT" ></span></a></li>
+            <li><a href="{{ url_for('education') }}"> <span data-typewriter="> CONTACT" ></span></a></li>
+            <!-- CONTACT should scroll to the contact section -->
+            <li><a href="{{ url_for('experience') }}"> <span data-typewriter="> EXPERIENCE" ></span></a></li>
             <!-- HOME, PROJECTS, ABOUT, CONTACT (maybe not, in the intro) -->
+             <li><a href="{{ url_for('experience') }}"> <span data-typewriter="> EXPERIENCE" ></span></a></li>
 
         </ol>
 
