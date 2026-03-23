@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 ////////////////// TO-DO
-// Make the cursor move faster
+// Add a project demo video to the projects page and pictures of the projects
 // Add a skip button to skip the animation
 // Contact should scroll to the contact section instead of going to a new page
 // 
