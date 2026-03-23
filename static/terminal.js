@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if ( i < text.length ) {
                 el.textContent += text.charAt(i);
                 i++;
-                setTimeout ( type, 80 );
+                setTimeout ( type, 40 );
             }
             
             else if ( callback ) {
