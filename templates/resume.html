@@ -5,11 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>My Profile</title>
+    <title>ViewCV</title>
 </head>
 <body>
     
-    <p> </p>
+    <h2> <span data-typewriter="Curriculum Vitae"></span> </h2>
+
+    <a href="../public/john_barsigo_cv.pdf" target="_blank">
+        <span data-typewriter="View CV"></span>
+    </a>
+    
+    <a href="../public/john_barsigo_cv.pdf" download>
+        <span data-typewriter="Download CV"></span>
+    </a>
 
     
     <script src="{{ url_for('static', filename='terminal.js') }}"></script>
