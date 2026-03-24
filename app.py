@@ -21,7 +21,7 @@ def education():
     return render_template('education.html')
 
 @app.route('/experience')
-def skills():
+def experience():
     return render_template('experience.html')
 
 if __name__ == '__main__':
