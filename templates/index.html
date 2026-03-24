@@ -9,7 +9,7 @@
     </head>
     <body>
 
-        <p><span data-typewriter="Hello! Welcome to My Portfolio site."></span></p> <br>
+        <h2><span data-typewriter="Hello! Welcome to My Portfolio Site."></span></h2> <br>
 
         <!-- <p><span data-typewriter="About Me:"></span></p> <br> -->
 
@@ -34,22 +34,19 @@
 
         <br>
 
-        <p> <span data-typewriter="Select:"></span></p> <br>
+        <p><span data-typewriter="Select:"></span></p> <br>
 
         <ol>
 
             <li><a href="{{ url_for('projects') }}"> <span data-typewriter="> VIEW PROJECTS" ></span></a></li>
             <li><a href="{{ url_for('about') }}"> <span data-typewriter="> ABOUT" ></span></a></li>
-            <!-- <li><a href="{{ url_for('education') }}"> <span data-typewriter="> CONTACT" ></span></a></li> -->
+            <li><a href="#top"> <span data-typewriter="> CONTACT" ></span></a></li>
             <!-- CONTACT should scroll to the contact section -->
             <li><a href="{{ url_for('experience') }}"> <span data-typewriter="> EXPERIENCE & EDUCATION" ></span></a></li>
-            <!-- HOME, PROJECTS, ABOUT, CONTACT (maybe not, in the intro) -->
             <!-- SET URL TO DOWNLOAD CV -->
             <li><a href="{{ url_for('resume') }}"> <span data-typewriter="> VIEW RESUME" ></span></a></li>
 
         </ol>
-
-        <p></p>
 
         <script src="{{ url_for('static', filename='terminal.js') }}"></script>
         
