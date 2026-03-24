@@ -15,9 +15,9 @@
     <br>
 
     <ul>
-        <li><a href="/public/JohnBarsigoCV.pdf" target="_blank"><span data-typewriter="View CV"></span></a></li>
+        <li><a href="{{ url_for('static', filename='JohnBarsigoCV.pdf') }}" target="_blank"><span data-typewriter="View CV"></span></a></li>
         <br>
-        <li><a href="/public/JohnBarsigoCV.pdf" download> <span data-typewriter="Download CV"></span></a></li>
+        <li><a href="{{ url_for('static', filename='JohnBarsigoCV.pdf') }}" download> <span data-typewriter="Download CV"></span></a></li>
     </ul>
     
     <script src="{{ url_for('static', filename='terminal.js') }}"></script>
