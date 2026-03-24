@@ -7,22 +7,22 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/profile')
-def profile():
+@app.route('/projects')
+def projects():
     # Load project data from a file or database
-    return render_template('profile.html')
+    return render_template('projects.html')
 
-@app.route('/experience')
-def experience():
-    return render_template('experience.html')
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 @app.route('/education')
 def education():
     return render_template('education.html')
 
-@app.route('/skills')
+@app.route('/experience')
 def skills():
-    return render_template('core_skills.html')
+    return render_template('experience.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
