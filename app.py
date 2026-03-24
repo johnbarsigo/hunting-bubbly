@@ -16,9 +16,9 @@ def projects():
 def about():
     return render_template('about.html')
 
-@app.route('/education')
-def education():
-    return render_template('education.html')
+# @app.route('/education')
+# def education():
+#     return render_template('education.html')
 
 @app.route('/experience')
 def experience():
