@@ -1,14 +1,14 @@
 
 body {
-    background-color: rgb(26, 26, 46);
-    color: rgb(0, 132, 255);
+    background-color: rgb(193, 193, 226);
+    color: rgb(0, 211, 248);
     font-family: 'Courier New', Courier, monospace;
     padding: 20px;
     margin: 0;
 }
 
 a {
-    color: rgb(0, 132, 255);
+    color: rgb(101, 101, 128);
     text-decoration: underline;
 }
 
